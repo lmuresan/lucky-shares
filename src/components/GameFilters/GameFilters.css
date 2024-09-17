@@ -1,0 +1,18 @@
+.game-filters {
+  min-height: 44px;
+  background-color: rgb(59 130 246);
+
+  .game-filters-query {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-filters {
+    flex-direction: column;
+
+    .game-filters-query {
+      width: 100%;
+    }
+  }
+}
